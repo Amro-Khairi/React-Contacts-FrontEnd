@@ -51,7 +51,6 @@ const App = () => {
           <ListContacts contacts={contacts} onRemoveContact={removeContact} />
         }
       />
-      {console.log(contacts)}
       <Route
         path="/create"
         element={<CreateContact onCreateContact={createContact} />}
